@@ -68,7 +68,11 @@ uv run sfa_meta_prompt_openai_v1.py \
     --variables "user-prompt"
 ```
 
+Python Code to SQLite Agent:
 
+```bash
+uv run sfa_sqlite_add_code.py -d ./data/analytics.db -p ./path/to/python/files
+```
 
 ## Features
 
@@ -181,6 +185,17 @@ uv run sfa_meta_prompt_openai_v1.py \
 # - Examples (optional): Example inputs and outputs
 # - Variables (optional): Placeholders for dynamic content
 uv run sfa_meta_prompt_openai_v1.py
+```
+
+### Python Code to SQLite Agent
+> (sfa_sqlite_add_code.py)
+
+An AI-powered assistant that adds Python code to a SQLite database table.
+
+Example usage:
+```bash
+# Add Python code to the SQLite database
+uv run sfa_sqlite_add_code.py -d ./data/analytics.db -p ./path/to/python/files
 ```
 
 ### Git Agent
