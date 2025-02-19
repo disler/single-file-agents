@@ -22,4 +22,4 @@ aider \
     --no-auto-commit \
     --yes-always \
     --file *.py \
-    --message "Double all changes requested to make sure they've been implemented: $prompt"
+    --message "Double check all changes requested to make sure they've been implemented: $prompt"
